@@ -2,7 +2,7 @@ const helloIndex = (req, res) => {
   res.status(200).json({
     status: {
       code: 200,
-      message: "Success fetching the API!",
+      message: 'Success fetching the API!',
     },
   });
 };
